@@ -26,7 +26,7 @@ try {
     //Recipients
     session_start();
     $getmail = $_SESSION["email"];
-    $mail->setFrom('xyz@gmail.com', 'NSS Support');
+    $mail->setFrom('xyz@gmail.com', 'XYZ Support');
     $mail->addAddress("$getmail");     // Add a recipient
     $mail->addReplyTo('xyz@gmail.com');
 

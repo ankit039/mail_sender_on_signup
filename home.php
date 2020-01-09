@@ -31,5 +31,4 @@ if(isset($_SESSION["hashusername"])!= "")
             else{
                     echo ('<meta http-equiv="refresh" content="0; URL=index.php">');
                 }
-                //INSERT INTO logindetail (image) VALUES (LOAD_FILE('C:/Users/ANKIT's/Desktop/webs/ankit bio/demo/ankit.jpg'));
 ?>
