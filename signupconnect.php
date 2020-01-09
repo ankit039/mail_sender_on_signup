@@ -1,10 +1,10 @@
 <?php
 session_start();
+//this is data base connection
 $dbservername = "localhost";
 $dbusername = "root";
 $dbpassword = "";
 $dbname = "userlogin";
-;
 
 $conn = mysqli_connect($dbservername, $dbusername, $dbpassword, $dbname);
 
